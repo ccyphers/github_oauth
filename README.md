@@ -4,11 +4,11 @@ Node.js based client provididing a github.com OAuth web flow.  Traditionalaly, m
 
 ## Flow Structure
 
-
+![alt text](https://raw.githubusercontent.com/ccyphers/github_oauth/master/github_oauth_flow.png "")
 
 ## Usage
 
-	var GitHubOAuth = require("./lib/gh_app_oath");
+	var GitHubOAuth = require("github_oauth");
 
 	var github = new GitHubOAuth();
 
